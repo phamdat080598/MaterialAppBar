@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Việt Nam"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Việt Nam tên chính thức là Cộng hòa xã hội chủ nghĩa Việt Nam là quốc gia ở rìa phía đông bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á. Phía Bắc giáp Trung Quốc, phía Tây giáp Lào và Campuchia, phía Tây Nam giáp vịnh Thái Lan, phía Đông và Nam giáp Biển Đông" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
